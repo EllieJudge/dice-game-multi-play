@@ -1,3 +1,7 @@
+.players {
+  display: flex;
+  justify-content: space-between;
+}
 
 h1 {
   font-size: 3vw;
@@ -20,13 +24,17 @@ float: center;
 
 }
 .dice {
-float: right;
+display: flex;
+justify-content: space-between;
 }
+
 button {
-width: 10%;
+width: 90%;
 height: 5%;
-float: center;
+display: flex;
+justify-content: space-between;
 }
+
 p {
   font-size: 1.5vw;
   text-align: center;
@@ -42,22 +50,6 @@ h4 {
   text-align: center;
 }
 
-body {
-  background-color: grey;
-}
-ul {
-  font-size: 1.3vw;
-  text-align: center;
-}
-
-a {
-  position: relative;
-  display: block;
-  height: 50px;
-  width:350px;
-  margin: 5px auto;
-  color: white;   
-}
 
 body {
   margin: 0;
